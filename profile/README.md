@@ -19,7 +19,7 @@ Create something, share its source, remix it, or propose an improvement to the o
 
 | Project | What it does |
 | --- | --- |
-| [napplet.soy](https://github.com/zeSchlausKwab/napplet-soy) | The web shell and browser Studio: discover, play, create and collaborate. |
+| [napplet.soy](https://github.com/soytec/napplet-soy) | The web shell and browser Studio: discover, play, create and collaborate. |
 | [soyLI](https://github.com/soytec/soyli) | The command-line workshop: project setup, agent guidance, previews, checks, publishing and collaboration. |
 
-**Repository migration is in progress.** The shell and current soyLI source and releases still live in [zeSchlausKwab/napplet-soy](https://github.com/zeSchlausKwab/napplet-soy). The new soyLI repository is being prepared for extraction. Keep using the [existing installer and documentation](https://napplet.soy/docs).
+**The shell repository is now at Soytec.** The shell, Studio and current soyLI source and releases live in [soytec/napplet-soy](https://github.com/soytec/napplet-soy). The separate soyLI repository is reserved for the upcoming extraction. Keep using the [existing installer and documentation](https://napplet.soy/docs).
