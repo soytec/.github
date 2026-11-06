@@ -11,7 +11,8 @@
 <p align="center">
   <a href="https://napplet.soy">Play and create</a> ·
   <a href="https://napplet.soy/docs">soyLI documentation</a> ·
-  <a href="https://github.com/soytec/.github/blob/main/GOVERNANCE.md">Project roles</a>
+  <a href="https://github.com/soytec/.github/blob/main/GOVERNANCE.md">Project roles</a> ·
+  <a href="https://github.com/soytec/.github/blob/main/ARCHITECTURE.md">Architecture proposal</a>
 </p>
 
 We build open-source tools for small games, useful apps and digital experiments on Nostr.
@@ -21,5 +22,7 @@ Create something, share its source, remix it, or propose an improvement to the o
 | --- | --- |
 | [napplet.soy](https://github.com/soytec/napplet-soy) | The web shell and browser Studio: discover, play, create and collaborate. |
 | [soyLI](https://github.com/soytec/soyli) | The command-line workshop: project setup, agent guidance, previews, checks, publishing and collaboration. |
+| [napplet-services](https://github.com/soytec/napplet-services) | Planned home for hosted Studio and backend services; extraction is under review. |
 
-**The shell repository is now at Soytec.** The shell, Studio and current soyLI source and releases live in [soytec/napplet-soy](https://github.com/soytec/napplet-soy). The separate soyLI repository is reserved for the upcoming extraction. Keep using the [existing installer and documentation](https://napplet.soy/docs).
+**soyLI source has been extracted.** Its standalone source lives in [soytec/soyli](https://github.com/soytec/soyli); release-channel migration and the shell's consumer cutover remain separate work. Hosted services still run from the shell codebase while maintainers review the [service extraction proposal](https://github.com/soytec/.github/blob/main/ARCHITECTURE.md). Keep using the [existing installer and documentation](https://napplet.soy/docs) until a release announcement says otherwise.
+
